@@ -33,6 +33,7 @@
             android:padding="8dp"
             android:text="Q"
             android:textSize="24dp"
+            android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.041"
             app:layout_constraintStart_toEndOf="@+id/textViewQuestionNo"
@@ -47,11 +48,8 @@
             android:textSize="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.484"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewQuestionNo"
-            app:layout_constraintVertical_bias="0.048"
-            />
+            app:layout_constraintHorizontal_bias="0.748"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textViewCorrectAnswer"
@@ -61,6 +59,7 @@
             android:padding="8dp"
             android:text="Correct ans:"
             android:textSize="24dp"
+            android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.104"
             app:layout_constraintStart_toEndOf="@+id/textViewQuestion"
